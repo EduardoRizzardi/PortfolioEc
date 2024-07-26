@@ -1,0 +1,283 @@
+
+@import url("header.css");
+@import url("topo-do-site.css");
+@import url("habilidades.css");
+@import url("sobre.css");
+@import url("projetos.css");
+@import url("contatos.css");
+@import url("footer.css");
+@import url("menu-mobile.css");
+
+/* ESTILIZAÇÃO GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulos{
+    color: white;
+    font-size: 33px;
+    text-align: center;
+}
+h2.titulos span{
+    color: #00FF08;
+}
+
+@media screen and (max-width: 700px){
+   /* classe geral */
+   .flex{
+     flex-direction: column;
+   }
+
+   .topo-do-site .flex{
+    flex-direction: column-reverse;
+   }
+    /* Cabeçalho */
+    .menu-desktop{
+        display: none;
+    }
+    .btn-contato{
+        display:none;
+    }
+
+
+    /* topo do site */
+    .topo-do-site .txt-topo-site h1{
+        font-size: 23px;
+        margin-top: 80px;
+    }
+
+    section.topo-do-site  {
+        padding: 40px 12%;
+        text-align: justify;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /* HABLIDADES */
+
+    section.habilidades{
+        padding: 40px 8%;
+    }
+    
+
+    h2.titulos{
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+
+    /* Sobre */
+
+    section.sobre .flex{
+        align-items: center;
+       flex-direction: column-reverse;
+    }
+
+    section.sobre{
+        padding: 40px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+    }
+    
+
+    .sobre .icon-social img{
+        width: 12%;
+        margin-bottom: 8px;
+}
+
+    
+
+
+    /* PROJETOS */
+
+    section.projetos{
+        padding: 40px 8%;
+    }
+
+    .img-projetos{
+        width: 100%;
+        height: 469px;
+        margin: 0 auto;
+    } 
+
+    .img-projetos-meio{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.projetos .flex{
+       gap: 60px;
+}
+
+
+/* FORMULARIO */
+
+section.formulario h2{
+    font-size: 30px;
+}
+
+/* RODAPÉ */
+
+footer .linha-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .flex{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 85px;
+}
+
+footer #tel-footer{
+    flex-direction: row;
+}
+
+footer .logo-footer{
+    margin-right: 38px;
+}
+
+}
+
+@media screen and (max-width: 980px){
+    header nav ul li{
+        display: inline-block;
+        padding: 0 15px;
+    }
+
+    header .btn-contato button{
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        background: #00FF08;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #tamanho-img-sobre{
+        width: 650px;
+        margin-right: 80px;
+        
+    }
+}
+
+
+@media screen and (min-width:701px) {
+    #tamanho-menu{
+        display: none;
+    }
+
+
+}
+
+@media  (min-width:700px) and (max-width:930px){
+.menu-desktop ul li {
+        margin: -30px;
+}
+
+
+}
+
+@media screen and (max-width:701px) {
+    #tamanho-img-sobre{
+        width: 100%;
+    }
+
+    .icon-social{
+        width: 77%;
+        margin-left: 30%;
+    }
+
+}
+
+@media  (min-width:740px) and (max-width:801px){
+    .img-sobre{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .linha-footerr img{
+        width: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

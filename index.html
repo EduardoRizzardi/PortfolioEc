@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <!--INICO GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS-->
+    <!--FAVICON-->
+    <link rel="icon" href="src/img/favicon.png">
+    <!--FAVICON-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+    <script src="menu.js" defer></script>
+  
+    <title>Portifólio EC</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div id="margem-logo-topo">
+                <a href="#">
+                    <img src="src/img/logo-foooter.png" alt="Logo do Portifólio" id="tamanho-logo">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a id="inicio">Início</a></li>
+                    <li><a id="habilidades">Habilidades</a></li>
+                    <li><a id="sobre">Sobre</a></li>
+                    <li><a id="projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato" >
+                    <button id="contato">Contato</button>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu-mobile">
+                <img src="src/img/menu-de-hamburguer.png" alt="" id="tamanho-menu">
+            </div>
+            
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <img src="src/img/cruz.png" alt="" id="tamanho-close">
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a id="inicio-mobile">Início</a></li>
+                        <li><a id="habilidades-mobile">Habilidades</a></li>
+                        <li><a id="sobre-mobile">Sobre</a></li>
+                        <li><a id="projetos-mobile">Projetos</a></li>
+                        <li><a id="contato-mobile">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu">
+                
+            </div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 >BEM VINDOS AO MEU PORTFÓLIO PESSOAL <span class="destaque-verde-florescente">.</span></h1>
+                        <p>Criei este portfólio com o objetivo de ter como público-alvo as empresas e pessoas interessadas em me conhecer. Aqui, irei mostrar um pouco mais sobre quem eu sou, apresentar meus projetos, minhas especialidades e meus objetivos.</p>
+                        
+                    </div><!--txt-top-site-->
+                    <div class="img-topo-site">
+                        <img src="src/img/foto-losangulo-teste.png" alt="" >
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="habilidades">
+            <div class="interface">
+                <h2 class="titulos">MINHAS <span>HABILIDADES.</span> </h2>
+                <div class="flex">
+                    <div class="habilidades-box">
+                        <img src="src/img/java.png" alt="">
+                        <h3>JAVA</h3>
+                    </div><!--hablidades-box-->
+                    <div class="habilidades-box">
+                        <img src="src/img/mysql.png" alt="">
+                        <h3>MySQL</h3>
+                    </div><!--hablidades-box-->
+                    <div class="habilidades-box">
+                        <img src="src/img/html-5.png" alt="">
+                        <h3>HTML</h3>
+                    </div><!--hablidades-box-->
+                    <div class="habilidades-box">
+                        <img src="src/img/css-3.png" alt="">
+                        <h3>CSS</h3>
+                    </div><!--hablidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--habilidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                    <div class="img-sobre">
+                        <a href="src/img/sobre-img.jpeg" data-fancybox="gallery">
+                            <img src="src/img/sobre-img.jpeg" alt="" id="tamanho-img-sobre">
+                        </a>
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU O EDUARDO CAPPELLARI.</span></h2>
+                        <p> Nasci em 06/04/2003, sempre fui apaixonado por tecnologia e não me vejo trabalhando em outra área. Desde 11/06/2023, atuo na Prefeitura de Porto Alegre, estagiando no cargo de suporte técnico em T.I. Atualmente, estou no terceiro e último semestre do curso Técnico em Desenvolvimento de Sistemas no Senac Tech. Além disso, possuo certificado do curso de pacote Office com duração de 120 horas, realizado presencialmente no Senac Tech.</p> 
+                        <p>Meus hobbies incluem cozinhar, viajar e ler livros, especialmente sobre história e filosofia. Sou uma pessoa proativa, com boa comunicação, pontualidade, comprometimento e ótima relação interpessoal. Estou constantemente buscando aprender mais e melhorar a cada dia. </p> 
+                        <div class="icon-social">
+                            <a href="https://wa.me/5551994133977?text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img src="src/img/whatsapp.png" alt="" ></a>
+                            <a href="https://www.linkedin.com/in/eduardo-cappellari-rizzardi-8a8426234/" target="_blank"><img src="src/img/linkedin.png" alt=""></a>
+                            <a href="https://github.com/EduardoRizzardi" target="_blank"><img src="src/img/github.png" alt="" ></a>
+                        </div><!--icon-social-->
+                    </div><!--txt-sobre-->
+            </div><!--interface-->    
+        </section><!--sobre-->
+       
+        <h2 class="titulos" id="titulo-projetos">MEUS <span>PROJETOS.</span></h2>
+        <section class="banner cycle-slideshow projetos"    
+        data-cycle-prev="#prev"
+        data-cycle-next="#next"
+        data-cycle-fx="scrollHorz"
+        data-cycle-speed="1200">
+        <img src="src/img/eduardo-bardobeco.png" alt="projeto 1" class="banner ">
+        <img src="src/img/eduardo-bardobeco.png" alt="projeto 2" class="banner ">
+        <img src="src/img/eduardo-bardobeco.png" alt="projeto 3" class="banner ">
+        </section>
+
+    <div id="controles">
+        <img src="src/img/seta-esquerda.png" alt="" id="prev">
+        <img src="src/img/seta-direita.png" alt="" id="next">
+    </div><!--controles-->
+    
+
+    <section class="formulario">
+    <div class="interface">
+        <h2 class="titulos">ME MANDE <span>UM E-MAIL.</span></h2>
+        <form action="conexao.php" method="post">
+            <input type="text" placeholder="Seu nome completo:" required id="nome" name="nome">
+            <input type="email" placeholder="Seu e-mail:" required id="email" name="email">
+            <input type="tel" placeholder="Seu celular:" id="telefone" name="telefone">
+            <textarea placeholder="Sua mensagem:" required id="mensagem" name="mensagem"></textarea>
+            <div class="btn-enviar"><input type="submit" value="Inserir"></div>
+        </form>
+    </div><!--interface-->
+</section><!--contato-->
+    </main>
+
+        <footer>
+            <div class="interface">
+                <div class="linha-footerr">
+                        <div class="logo-footer">
+                            <img src="src/img/logo-footer.png" alt="Logo do Portifólio" id="tamanho-logo-rodape" >   
+                        </div><!--logo-footer-->
+                        <div class="icon-social">
+                            <a href="https://wa.me/5551994133977?text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img src="src/img/whatsapp.png" alt="" class="tamanho-icon"></a>
+                            <a href="https://www.linkedin.com/in/eduardo-cappellari-rizzardi-8a8426234/" target="_blank"><img src="src/img/linkedin.png" alt="" class="tamanho-icon"></a>
+                            <a href="https://github.com/EduardoRizzardi" target="_blank"><img src="src/img/github.png" alt="" class="tamanho-icon"></a>
+                        </div><!--icon-social-->
+                </div><!--linha-footer-->
+            
+        
+
+                <div class="linha-footer borda">
+                    <div class="flex">
+                        <img src="src/img/e-mail.png" alt="" id="tamanho-icon-e-mail">
+                        <a href="mailto:edu.cappellari.rizzardi@gmail.com">edu.cappellari.rizzardi@gmail.com </a>
+                    </div><!--flex-->
+                    <div id="tel-footer">
+                        <img src="src/img/telefone.png" alt="" id="tamanho-telefone">  
+                        <p>(51) 99413-3977</p>
+                    </div><!--tel-footer-->
+                </div><!--linha-footer-->
+                <h4><span>Eduardo Cappellari Rizzardi &copy; 2024.</span> Todos os direitos reservados.</h4>
+            </div><!--interface-->
+        </footer>
+       
+        <script src="src/js/jquery-3.7.1.js"></script>
+        <script src="src/js/scrolltop.js"></script>
+        <script src="src/js/jquery.cycle2.min.js"></script>
+        <script src="src/js/jquery.cycle2.carousel.min.js"></script>
+        <script src="src/js/jquery.magnific-popup.min.js"></script>
+
+        <script>
+            Fancybox.bind("[data-fancybox]")
+        </script>
+        
+        <!-- MENU DESKTOP -->
+        <script>  
+            $("#inicio").click(function (){
+                $("html, body").animate({scrollTop: "0px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#habilidades").click(function (){
+                $("html, body").animate({scrollTop: "400px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#sobre").click(function (){
+                $("html, body").animate({scrollTop: "850px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#projetos").click(function (){
+                $("html, body").animate({scrollTop: "1538px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#contato").click(function (){
+                $("html, body").animate({scrollTop: "2355px"}, 800); 
+            });
+        </script>
+
+        <!-- MENU MOBILE -->
+        <script>  
+            $("#inicio-mobile").click(function (){
+                $("html, body").animate({scrollTop: "0px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#habilidades-mobile").click(function (){
+                $("html, body").animate({scrollTop: "985px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#sobre-mobile").click(function (){
+                $("html, body").animate({scrollTop: "2950px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#projetos-mobile").click(function (){
+                $("html, body").animate({scrollTop: "4120px"}, 800); 
+            });
+        </script>
+
+        <script>  
+            $("#contato-mobile").click(function (){
+                $("html, body").animate({scrollTop: "4655px"}, 800); 
+            });
+        </script>
+
+
+
+</body>
+</html>

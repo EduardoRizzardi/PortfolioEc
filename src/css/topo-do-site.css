@@ -1,0 +1,43 @@
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site{
+    padding: 10px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: white;
+    margin-top: 110px;
+    font-size: 34px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #00FF08;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0px;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuante 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes flutuante{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top:30px
+    }
+}
+
+
